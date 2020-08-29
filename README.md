@@ -231,16 +231,16 @@ Project Link: [https://github.com/mpbmpb/DbConnection](https://github.com/mpbmpb
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[coverage-shield]: https://img.shields.io/badge/coverage-100%25-brightgreen
-[tests-shield]: https://img.shields.io/badge/tests-passing-brightgreen
-[contributors-shield]: https://img.shields.io/github/contributors/mpbmpb/DbConnection?color=blue
+[coverage-shield]: https://img.shields.io/badge/coverage-100%25-brightgreen?style=plastic
+[tests-shield]: https://img.shields.io/badge/tests-passing-brightgreen?style=plastic
+[contributors-shield]: https://img.shields.io/github/contributors/mpbmpb/DbConnection?color=blue?style=plastic
 [contributors-url]: https://github.com/mpbmpb/DbConnection/graphs/contributors
-[codesize-shield]: https://img.shields.io/github/languages/code-size/mpbmpb/DbConnection
-[stars-shield]: https://img.shields.io/github/stars/mpbmpb/DbConnection
+[codesize-shield]: https://img.shields.io/github/languages/code-size/mpbmpb/DbConnection?style=plastic
+[stars-shield]: https://img.shields.io/github/stars/mpbmpb/DbConnection?style=plastic
 [stars-url]: https://github.com/mpbmpb/DbConnection/stargazers
-[issues-shield]: https://img.shields.io/github/issues/mpbmpb/DbConnection
+[issues-shield]: https://img.shields.io/github/issues/mpbmpb/DbConnection?style=plastic
 [issues-url]: https://github.com/mpbmpb/DbConnection/issues
-[license-shield]: https://img.shields.io/github/license/mpbmpb/DbConnection
+[license-shield]: https://img.shields.io/github/license/mpbmpb/DbConnection?style=plastic
 [license-url]: https://github.com/mpbmpb/DbConnection/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&style=plastic&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/mark-van-den-beemt-7805011b1/
