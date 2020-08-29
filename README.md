@@ -235,14 +235,14 @@ Project Link: [https://github.com/mpbmpb/DbConnection](https://github.com/mpbmpb
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [coverage-shield]: https://img.shields.io/badge/coverage-100%25-brightgreen
 [tests-shield]: https://img.shields.io/badge/tests-passing-brightgreen
-[contributors-shield]: https://img.shields.io/github/contributors/mpbmpb/DbConnection?color=blue&style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/mpbmpb/DbConnection?color=blue
 [contributors-url]: https://github.com/mpbmpb/DbConnection/graphs/contributors
 [codesize-shield]: https://img.shields.io/github/languages/code-size/mpbmpb/DbConnection
 [stars-shield]: https://img.shields.io/github/stars/mpbmpb/DbConnection
 [stars-url]: https://github.com/mpbmpb/DbConnection/stargazers
-[issues-shield]: https://img.shields.io/github/issues/mpbmpb/DbConnection?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/mpbmpb/DbConnection
 [issues-url]: https://github.com/mpbmpb/DbConnection/issues
 [license-shield]: https://img.shields.io/github/license/mpbmpb/DbConnection
 [license-url]: https://github.com/mpbmpb/DbConnection/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/mark-van-den-beemt-7805011b1/
