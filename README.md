@@ -26,7 +26,7 @@
    <img src="/gitAssets/planet.jpg" height="320" width="505">
 </a>
 
-  <h3 align="center">DbConnection</h3>
+  <h1 align="center">DbConnection</h1>
 
   <p align="center">
     <a href="https://www.udemy.com/course/csharp-intermediate-classes-interfaces-and-oop">
