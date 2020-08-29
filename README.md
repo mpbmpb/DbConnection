@@ -97,8 +97,7 @@ The test coverage was measured with JetBrains dotCover.
 ### Specifications
 The given specifications were:
 <br/>
-<br/>
-<h4>Exercise 1: Design a database connection</h4>
+<h2>Exercise 1: Design a database connection</h2>
 To access a database, we need to open a connection to it first and close it once our job is done. Connecting to a database depends on the type of the target database and the database management system (DBMS). For example, connecting to a SQL Server database is different from connecting to an Oracle database. But both these connections have a few things in common:
 <br/>
 <br/>
@@ -119,8 +118,7 @@ Your job is to represent these commonalities in a base class called DbConnection
 * Derive two classes SqlConnection and OracleConnection from DbConnection and provide a simple implementation of opening and closing connections using Console.WriteLine().
 <br/>
 <br/>
-<h4>Exercise 2: Design a database command</h4>
-<br/>
+<h2>Exercise 2: Design a database command</h2>
 <br/>
 * Design a class called DbCommand for executing an instruction against the database. A DbCommand cannot be in a valid state without having a connection.
 * Each command should be executable. So we need to create a method called Execute(). In this method, we need a simple implementation as follows:
