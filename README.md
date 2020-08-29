@@ -52,6 +52,7 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
   * [Specifications](#specifications)
+* [What I learned from this project](#what-i-learned-from-this-project)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -137,6 +138,10 @@ In the main method, initialize a DbCommand with some string as the instruction a
 <br/>
 Then, swap the SqlConnection with an OracleConnection and see polymorphism in action.
 
+## What I learned from this project
+How to use abstract classes to create loosely coupled systems.
+How to use polymorphism instead of conditionals.
+How to implement a timeout function.
 
 <!-- GETTING STARTED -->
 ## Getting Started
