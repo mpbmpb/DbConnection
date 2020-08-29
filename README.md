@@ -23,7 +23,7 @@
 <br />
 <p align="center">
 <a href="https://github.com/mpbmpb/DbConnection">
-   <img src="/gitAssets/planet.jpg" height="640" width="426">
+   <img src="/gitAssets/planet.jpg" height="426" width="640">
 </a>
 
   <h3 align="center">DbConnection</h3>
