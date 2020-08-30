@@ -114,7 +114,7 @@ timeout, an exception will be thrown).
 Your job is to represent these commonalities in a base class called DbConnection. This class should have two properties:
 * ConnectionString : string
 * Timeout : TimeSpan
-<br/>
+
 <br/>
 
 * A DbConnection will not be in a valid state if it doesn’t have a connection string.
