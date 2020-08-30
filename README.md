@@ -136,9 +136,9 @@ In the main method, initialize a DbCommand with some string as the instruction a
 Then, swap the SqlConnection with an OracleConnection and see polymorphism in action.
 
 ## What I learned from this project
-How to use abstract classes to create loosely coupled systems.
-How to use polymorphism instead of conditionals.
-How to implement a timeout function.
+* How to use abstract classes to create loosely coupled systems.
+* How to use polymorphism instead of conditionals.
+* How to implement a timeout function.
 
 <!-- GETTING STARTED -->
 ## Getting Started
