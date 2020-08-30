@@ -102,26 +102,32 @@ The given specifications were:
 To access a database, we need to open a connection to it first and close it once our job is done. Connecting to a database depends on the type of the target database and the database management system (DBMS). For example, connecting to a SQL Server database is different from connecting to an Oracle database. But both these connections have a few things in common:
 <br/>
 <br/>
-• They have a connection string<br/>
-• They can be opened<br/>
-• They can be closed<br/>
-• They may have a timeout attribute (so if the connection could not be opened within the
+
+* They have a connection string
+* They can be opened
+* They can be closed
+* hey may have a timeout attribute (so if the connection could not be opened within the
 timeout, an exception will be thrown).
+
+<br/>
+
+Your job is to represent these commonalities in a base class called DbConnection. This class should have two properties:
+* ConnectionString : string
+* Timeout : TimeSpan
 <br/>
 <br/>
-Your job is to represent these commonalities in a base class called DbConnection. This class should have two properties:<br/>
-• ConnectionString : string<br/>
-• Timeout : TimeSpan<br/>
-<br/>
-• A DbConnection will not be in a valid state if it doesn’t have a connection string.<br/>
-• Our DbConnection should also have two methods for opening and closing a connection. We don’t know how to open or close a connection in a DbConnection and this should be left to the classes that derive from DbConnection.<br/>
-• Derive two classes SqlConnection and OracleConnection from DbConnection and provide a simple implementation of opening and closing connections using Console.WriteLine().<br/>
+
+* A DbConnection will not be in a valid state if it doesn’t have a connection string.
+* Our DbConnection should also have two methods for opening and closing a connection. We don’t know how to open or close a connection in a DbConnection and this should be left to the classes that derive from DbConnection.
+* Derive two classes SqlConnection and OracleConnection from DbConnection and provide a simple implementation of opening and closing connections using Console.WriteLine().
+
 <br/>
 <br/>
 <h2>Exercise 2: Design a database command</h2>
 <br/>
-• Design a class called DbCommand for executing an instruction against the database. A DbCommand cannot be in a valid state without having a connection.<br/>
-• Each command should be executable. So we need to create a method called Execute(). In this method, we need a simple implementation as follows:
+
+* Design a class called DbCommand for executing an instruction against the database. A DbCommand cannot be in a valid state without having a connection.
+* Each command should be executable. So we need to create a method called Execute(). In this method, we need a simple implementation as follows:
 <br/>
 <br/>
 &nbsp; &nbsp; Open the connection <br/>
