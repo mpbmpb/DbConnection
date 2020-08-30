@@ -109,8 +109,6 @@ To access a database, we need to open a connection to it first and close it once
 * hey may have a timeout attribute (so if the connection could not be opened within the
 timeout, an exception will be thrown).
 
-<br/>
-
 Your job is to represent these commonalities in a base class called DbConnection. This class should have two properties:
 * ConnectionString : string
 * Timeout : TimeSpan
@@ -129,7 +127,6 @@ Your job is to represent these commonalities in a base class called DbConnection
 &nbsp; &nbsp; Run the instruction <br/>
 &nbsp; &nbsp; Close the connection <br/>
 
-<br/>
 For running the instruction, simply output it to the Console. In the real-world, SQL Server (or any other DBMS) provides an API for running an instruction against the database. We don’t need to worry about it for this exercise.
 <br/>
 <br/>
