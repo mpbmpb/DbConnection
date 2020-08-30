@@ -125,9 +125,9 @@ Your job is to represent these commonalities in a base class called DbConnection
 * Each command should be executable. So we need to create a method called Execute(). In this method, we need a simple implementation as follows:
 <br/>
 <br/>
-\t Open the connection
-\t Run the instruction
-\t Close the connection
+&nbsp; &nbsp; Open the connection <br/>
+&nbsp; &nbsp; Run the instruction <br/>
+&nbsp; &nbsp; Close the connection <br/>
 <br/>
 <br/>
 For running the instruction, simply output it to the Console. In the real-world, SQL Server (or any other DBMS) provides an API for running an instruction against the database. We don’t need to worry about it for this exercise.
