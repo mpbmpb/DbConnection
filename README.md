@@ -238,7 +238,7 @@ Project Link: [https://github.com/mpbmpb/DbConnection](https://github.com/mpbmpb
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [coverage-shield]: https://img.shields.io/badge/coverage-100%25-brightgreen?style=plastic
 [tests-shield]: https://img.shields.io/badge/tests-passing-brightgreen?style=plastic
-[contributors-shield]: https://img.shields.io/github/contributors/mpbmpb/DbConnection?color=blue?style=plastic
+[contributors-shield]: https://img.shields.io/github/contributors/mpbmpb/DbConnection?color=blue&style=plastic
 [contributors-url]: https://github.com/mpbmpb/DbConnection/graphs/contributors
 [codesize-shield]: https://img.shields.io/github/languages/code-size/mpbmpb/DbConnection?style=plastic
 [stars-shield]: https://img.shields.io/github/stars/mpbmpb/DbConnection?style=plastic
